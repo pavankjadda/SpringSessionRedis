@@ -2,6 +2,7 @@ server:
   servlet:
     session:
       timeout: 600  # Session timeout. If a duration suffix is not specified, seconds is used
+  port: 8081
 
 spring:
   session:
@@ -14,3 +15,4 @@ spring:
     host: localhost # Redis server host.
     password:
     port: 6379
+

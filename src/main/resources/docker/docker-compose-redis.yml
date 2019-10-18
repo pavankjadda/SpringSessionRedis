@@ -3,6 +3,8 @@ version: "2"
 services:
   redis:
     image: redis
+    environment:
+      REDIS_PASSWORD: "redis"
     ports:
       - "6379:6379"
 
